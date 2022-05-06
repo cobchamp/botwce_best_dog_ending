@@ -1,0 +1,57 @@
+Endgame: 
+- _Warp::Shrine::DahHesho:
+    line-color: cyan
+    split-type: None
+- WB to Tarrey Town
+- _Chest<Tarrey Town Dog>:
+    split-type: UserDefined
+    icon: korok-magnesis
+    comment: .v(Dog) Dogs, 5x Bomb Arrow
+    movements: 
+      - to: [3923.10, 238.22, -1632.89]
+      - to: [3940.30, 232.60, -1649.20]
+    var-change:
+      Dog: 1
+      Apple: -8
+- _Warp::Shrine::TalohNaeg:
+    line-color: purple
+    split-type: None
+- _Npc::SheikaFemale<Impa 3>:
+    coord: [1772.71, 229.43, 984.31]
+    comment: Talk to Impa to unlock final memory
+- WB chain to Final Memory:
+    movements:
+      - to: [1841.12,891.19]
+      - to: [2103.82,1613]
+- _Memory::AshSwamp
+- _Chest<Dueling Peaks Stable Dog>:
+    split-type: UserDefined
+    icon: korok-magnesis
+    comment: .v(Dog) Dogs,  Silver Rupee
+    movements: 
+      - to: [1767.00, 115.58, 1941.50]
+      - to: [1767.00, 115.58, 1941.50]
+    var-change:
+      Dog: 1
+      Apple: -4
+      Rupees: 100
+    notes: .v(Rupees) Rupees
+- _Warp::Shrine::MoggLatan:
+    line-color: white
+    split-type: None
+- BLSS to Hyrule Castle
+- _Chest<5x Ancient Arrows>:
+    coord: [-259.50, 420.85, -1065.37]
+- Enter Blights:
+    icon: calamity
+    split-type: UserDefined
+    coord: [-254.00, 191.01, -1061.37]
+- Blights:
+    icon: calamity
+    split-type: UserDefined
+- Calamity Ganon:
+    icon: calamity
+    split-type: UserDefined
+- Dark Beast Ganon:
+    icon: calamity
+    split-type: UserDefined

@@ -1,0 +1,128 @@
+Hyrule Field:
+- _Warp::Shrine::TalohNaeg:
+    line-color: yellow
+    split-type: None
+- _Npc::SheikaFemale<Impa 2>:
+    coord: [1772.71, 229.43, 984.31]
+    comment: Talk to Impa to advance the locked memories main quest
+- WBs to Kakariko Stump and BLSS:
+    coord: [1872.33, 344.20, 815.26]
+- _Memory::LanayruRoad
+- WBs, BLSS, Moblin BTB to Southern Mine:
+    movements:
+      - to: [3084.25,1340.85] # BLSS setup
+      - to: [1427.00, 296.94, -1316.15] # Moblin
+- _Npc::Goron<Greyson>:
+    split-type: UserDefined
+    coord: [1656.63, 430.15, -1968.53]
+- WB Chain to memory
+- _Memory::EldinCanyon
+- WB to Woodland Stable
+- _Chest<Woodland Stable Dog>:
+    split-type: UserDefined
+    icon: korok-magnesis
+    comment: .v(Dog) Dogs, 10x Ice Arrow
+    movements: 
+      - to: [1045.43, 127.57, -1148.37]
+      - to: [992.80, 125.70, -1132.40]
+    var-change:
+      Dog: 1
+      Apple: -4
+- Collect Radishes if needed
+- WB to Stable Horse, BLSS to Wetland Stable:
+    coord: [992.80, 125.70, -1132.40]
+- _Chest<Wetland Stable Dog>:
+    split-type: UserDefined
+    icon: korok-magnesis
+    comment: .v(Dog) Dogs, Opal
+    movements: 
+      - to: [890.25,195.71]
+      - to: [924.94, 139.80, 274.55]
+    var-change:
+      Dog: 1
+      Apple: -4
+- Collect Radishes if needed
+- WB .dir(SW) to memory
+- _Memory::HyruleField
+- WB .dir(S) to BLSS:
+    coord: [618,639.81]
+- _Memory::WestNecluda
+- WB .dir(W) to BLSS:
+    coord: [0.5,1892.31]
+- _Memory::LakeKolomo
+- WB chain to stable
+- _Chest<Outskirt Stable Dog>:
+    split-type: UserDefined
+    icon: korok-magnesis
+    comment: .v(Dog) Dogs, Silver Rupee
+    movements: 
+      - to: [-1431.00, 137.76, 1256.00]
+      - to: [-1414.48, 136.96, 1248.51]
+    var-change:
+      Dog: 1
+      Apple: -4
+      Rupees: 100
+    notes: .v(Rupees) Rupees
+- WB chain to memory
+- _Memory::SanidinPark
+- BLSS to memory
+- _Memory::IrchPlain
+- WB to stable
+- _Chest<Serenne Stable Dog>:
+    split-type: UserDefined
+    icon: korok-magnesis
+    comment: .v(Dog) Dogs, Gold Rupee
+    movements: 
+      - to: [-1544.30, 212.22, -1793.92]
+      - to: [-1542.01, 212.00, -1761.31]
+    var-change:
+      Dog: 1
+      Apple: -4
+      Rupees: 300
+    notes: .v(Rupees) Rupees
+- _Material<Wood, +45>:
+    var-change:
+      Wood: 45
+- WB and Moblin BTB Snowfield Stable:
+    coord: [-1770.50, 211.99, -1732.00] # Moblin
+- _Chest<Snowfield Stable Dogs>:
+    split-type: UserDefined
+    icon: korok-magnesis
+    comment: .v(Dog) Dogs, Featured Spear, Star Fragment
+    movements: 
+      - to: [-1645.14, 339.24, -2586.63] # Dog 1
+      - to: [-1653.80, 343.59, -2625.11]
+      - to: [-1656.12, 339.06, -2557.84] # Dog 2
+      - to: [-1687.62, 338.40, -2539.70]
+    var-change:
+      Dog: 2
+      Apple: -4
+      Wood: 5
+    notes: Pick up 5 Wood while first dog eats
+- BLSS to Hyrule Castle
+- _Memory::HyruleCastle
+- _Equipment::Weapon<Edge of Duality>:
+    coord: [-311.81, 256.46, -997.30]
+    notes: Shock Arrow the Black Moblin
+- 5 Arrows
+- _Equipment::Bow<Royal Guard's Bow>:
+    coord: [-310.25, 261.03, -995.87]
+    notes: Magensis off wall
+- WB to Castle cryonis entrance:
+    coord: [-317,-769.95]
+- _Equipment::Weapon<Lizal Tri-Boomerang>:
+    coord: [-322.58, 192.35, -833.74]
+    notes: Shock Arrow the Black Lizalfos
+- _Chest<5x Ancient Arrows>:
+    coord: [-325.20, 181.06, -798.59]
+    notes: Behind bombable wall
+- Drop excess weapons (Axe, Knight's Claymore) on door switch
+- _Equipment::Weapon<Royal Claymore>:
+    coord: [-377.44, 168.59, -870.37]
+    notes: Glide down to Royal Claymore
+- _Equipment::Weapon<Royal Guard's Claymore>:
+    coord: [-380.76, 166.04, -863.66]
+    notes: Shock Arrow the Black Moblin
+- Exit Castle, WB Superlaunch to Memory:
+    coord: [-434.375,-851.73]
+- _Memory::SacredGrounds

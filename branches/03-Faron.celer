@@ -1,0 +1,72 @@
+Faron: 
+- _Warp::Tower::GreatPlateau:
+    line-color: red
+    split-type: None
+- BLSS to Highland Stable
+- _Cook<Cook Hearty Meals>:
+    comment: All remaining Durians
+    coord: [507.66, 153.07, 3453.87]
+    var-change:
+      Durian: -10
+- _Equipment::Shield<Pot Lid>:
+    coord: [504.91, 153.12, 3456.91]
+- _Chest<Highland Stable Dog>:
+    split-type: UserDefined
+    icon: korok-magnesis
+    comment: .v(Dog) Dogs, Silver Rupee
+    movements: 
+      - to: [529.89, 153.06, 3479.93]
+      - to: [536.47, 151.91, 3425.20]
+    var-change:
+      Dog: 1
+      Apple: -4
+      Rupees: 100
+    notes: .v(Rupees) Rupees
+- BLSS to Lakeside Stable:
+    coord: [547.75,3581.32]
+- _Chest<Lakeside Stable Dog>:
+    split-type: UserDefined
+    icon: korok-magnesis
+    comment: .v(Dog) Dogs, Forest Dweller's Spear
+    movements: 
+      - to: [1529.76, 166.19, 3530.13]
+      - to: [1528.13, 166.29, 3505.75]
+    var-change:
+      Dog: 1
+      Apple: -4
+- _Material<Mighty Bananas, 3>:
+    text: WB .dir(E) to Mighty Bananas
+- BLSS to Lurelin Village
+- _Chest<Lurelin Village Dog>:
+    split-type: UserDefined
+    icon: korok-magnesis
+    comment: .v(Dog) Dogs, Star Fragment
+    movements: 
+      - to: [2884.75,3407.13]
+      - to: [2857.95, 109.76, 3380.44]
+    var-change:
+      Dog: 1
+      Apple: -4
+- _Shop<WB .dir(SE) to shop on docks>:
+    coord: [2957.75, 106.82, 3494.50]
+- Sell Star Fragment:
+    var-change:
+      Rupees: 300
+    notes: .v(Rupees) Rupees
+- Buy 10x Shock Arrows:
+    var-change:
+      Rupees: -160
+    notes: .v(Rupees) Rupees
+- .npc(Transmutate)
+- Drop 1 Diamond
+- Transmute 5 Diamonds:
+    notes: Hold Smuggle 5 Peppers, Sell 1, Pick up Diamond
+    var-change:
+      Diamond: +5
+- Sell 6 Diamonds:
+    var-change:
+      Rupees: 3000
+    notes: .v(Rupees) Rupees
+- Warp:
+    icon: warp
+    comment: to .loc(Keh Namut)

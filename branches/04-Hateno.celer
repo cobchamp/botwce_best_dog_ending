@@ -1,0 +1,46 @@
+Hateno:
+- _Warp::Shrine::KehNamut:
+    line-color: orange
+    split-type: None
+- BLSS to Kakariko
+- _Npc::SheikaFemale<Impa 1>:
+    coord: [1772.71, 229.43, 984.31]
+    comment: Talk to Impa twice to advance the locked memories main quest
+- WB .dir(N) to shrine
+- _Shrine::TalohNaeg:
+    text: Activate Taloh Naeg
+    icon: shrine
+- BLSS to Bolson
+- Homeownership:
+    icon: make-morning
+    split-type: UserDefined
+    movements:
+      - to: [1872.33, 344.20, 815.26]
+      - to: [3320.1875,2301.07]
+      - to: [3333.19, 235.33, 2283.12]
+    var-change:
+      Wood: -30
+      Rupees: -3000
+    notes: Talk to Bolson, set ToD to noon, talk to Bolson again until he takes your money (.v(Rupees) Rupees Remaining)
+- Talk to Hudson until he goes to Akkala
+- WB .dir(NE) to Hateno Dog
+- _Chest<Hateno Dog>:
+    split-type: UserDefined
+    icon: korok-magnesis
+    comment: .v(Dog) Dogs, Silver Rupee
+    movements: 
+      - to: [3609.04, 282.81, 2044.48]
+      - to: [3613.53, 285.24, 1956.71]
+    var-change:
+      Dog: 1
+      Apple: -4
+      Rupees: 100
+    notes: .v(Rupees) Rupees
+- WB .dir(W) to Hateno Blue Flame:
+    coord: [3441.61, 255.67, 1972.58]
+- 2 WBs to Hateno Tech Lab:
+    coord: [3786.98, 356.07, 2117.03]
+    notes: Weapon smuggle and carry flame with Forest Dweller's Spear
+- Camera Rune:
+    split-type: UserDefined
+    icon: camera-elite

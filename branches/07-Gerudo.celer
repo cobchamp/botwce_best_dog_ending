@@ -1,0 +1,46 @@
+Gerudo:
+- _Warp::Shrine::DahHesho:
+    line-color: green
+    split-type: None
+- WB to Tarrey Town
+- _Npc<Hudson>:
+    coord: [3981.65, 233.41, -1599.11]
+    var-change:
+      Wood: -20
+    comment: Give 20 Wood; Get Rhondson Objective
+- BLSS to Memory
+- _Memory::SpringofPower
+- _Warp::Shrine::KehNamut:
+    split-type: None
+- BLSS to Gerudo Canyon Stable
+- _Chest<Gerudo Canyon Stable Dog>:
+    split-type: UserDefined
+    icon: korok-magnesis
+    comment: .v(Dog) Dogs, 10x Ice Arrow
+    movements: 
+      - to: [-2807.77, 134.87, 2239.03]
+      - to: [-2780.03, 134.33, 2235.16]
+    var-change:
+      Dog: 1
+      Apple: -4
+- WB to Kara Kara Bazaar
+- _Memory::KaraKaraBazaar:
+    split-type: None
+- _Npc::Gerudo<Rhondson>:
+    split-type: None
+    coord: [-3269.43, 129.00, 2585.22]
+- _Chest<Kara Kara Bazaar Dog>:
+    split-type: None
+    icon: korok-magnesis
+    comment: .v(Dog) Dogs, Knight's Bow
+    movements: 
+      - to: [-3267.30, 128.83, 2562.79]
+      - to: [-3236.47, 128.14, 2596.45]
+    var-change:
+      Dog: 1
+      Apple: -4
+- Kara Kara Bazaar:
+    text: Warp
+    icon: warp
+    comment: Warp to .loc(Dah Hesho)
+    split-type: UserDefined

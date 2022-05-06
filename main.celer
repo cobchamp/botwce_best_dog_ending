@@ -1,0 +1,27 @@
+---
+_project:
+  authors:
+    - CobChamp
+  description: ""
+  name: Best Dog Ending
+  url: "https://github.com/cobchamp/botwce_best_dog_ending"
+  version: 0.1.0
+_route:
+  - Plateau:
+      - __use__ Plateau
+  - Satori Mountain:
+      - __use__ Satori Mountain
+  - Faron:
+    - __use__ Faron
+  - Hateno:
+    - __use__ Hateno
+  - Akkala:
+    - __use__ Akkala
+  - Hyrule Field:
+    - __use__ Hyrule Field
+  - Gerudo:
+    - __use__ Gerudo
+  - Tabantha:
+    - __use__ Tabantha
+  - Endgame:
+    - __use__ Endgame

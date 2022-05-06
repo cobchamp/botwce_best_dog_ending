@@ -1,0 +1,38 @@
+Satori Mountain: 
+- BLSS to Satori Mountain:
+    coord: [-2247.5,803.04]
+- _Chest<Forest Dweller's Bow>:
+    icon: bow
+    text: WB .dir(NW) to Forest Dweller's Bow
+    coord: [-2342.64, 348.37, 680.81]
+    var-change:
+      MultishotBow: +1
+- _Material<Diamond, +1>:
+    text: WB .dir(E) to Diamond
+    coord: [-2247.90, 353.39, 662.05]
+- _Material<Wood, +40>:
+    text: WB .dir(NE) to Apple trees
+    coord: [-1877,362.94]
+    var-change:
+      Apple: +60
+      Wood: 40
+    comment: (.v(Wood)) Wood and (.v(Apple)) Apples
+    notes: Collect at least 40 Wood and 60+ Apples 
+- _Chest<Ice Arrows>:
+    coord: [-2198.98, 351.76, 509.92]
+    var-change:
+      IceArrows: +5
+    notes: Collect .v(IceArrows) Ice Arrows
+- WB .dir(N) Satori Durians
+- _Material<Durian, +10>:
+    coord: [-2192.70, 410.24, 434.80]
+- _Shrine::MoggLatan:
+    split-type: None
+    var-change:
+      MultishotBow: +1
+    comment: Forest Dweller's Bow inside
+- Mogg Latan:
+    text: Warp
+    icon: warp
+    comment: to .loc(Great Plateau Tower)
+    split-type: UserDefined
