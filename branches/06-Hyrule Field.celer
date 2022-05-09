@@ -62,7 +62,6 @@ Hyrule Field:
       Dog: 1
       Apple: -4
       Rupees: 100
-    notes: .v(Rupees) Rupees
 - WB chain to memory
 - _Memory::SanidinPark
 - BLSS to memory
@@ -79,7 +78,6 @@ Hyrule Field:
       Dog: 1
       Apple: -4
       Rupees: 300
-    notes: .v(Rupees) Rupees
 - _Material<Wood, +45>:
     var-change:
       Wood: 45
@@ -103,26 +101,26 @@ Hyrule Field:
 - _Memory::HyruleCastle
 - _Equipment::Weapon<Edge of Duality>:
     coord: [-311.81, 256.46, -997.30]
-    notes: Shock Arrow the Black Moblin
+    comment: Shock Arrow the Black Moblin
 - 5 Arrows
 - _Equipment::Bow<Royal Guard's Bow>:
     coord: [-310.25, 261.03, -995.87]
-    notes: Magensis off wall
+    comment: Magensis off wall
 - WB to Castle cryonis entrance:
     coord: [-317,-769.95]
 - _Equipment::Weapon<Lizal Tri-Boomerang>:
     coord: [-322.58, 192.35, -833.74]
-    notes: Shock Arrow the Black Lizalfos
+    comment: Shock Arrow the Black Lizalfos
 - _Chest<5x Ancient Arrows>:
     coord: [-325.20, 181.06, -798.59]
-    notes: Behind bombable wall
+    comment: Behind bombable wall
 - Drop excess weapons (Axe, Knight's Claymore) on door switch
 - _Equipment::Weapon<Royal Claymore>:
     coord: [-377.44, 168.59, -870.37]
-    notes: Glide down to Royal Claymore
+    comment: Glide down to Royal Claymore
 - _Equipment::Weapon<Royal Guard's Claymore>:
     coord: [-380.76, 166.04, -863.66]
-    notes: Shock Arrow the Black Moblin
+    comment: Shock Arrow the Black Moblin
 - Exit Castle, WB Superlaunch to Memory:
     coord: [-434.375,-851.73]
 - _Memory::SacredGrounds

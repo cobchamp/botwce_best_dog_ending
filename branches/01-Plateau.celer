@@ -7,7 +7,7 @@ Plateau:
 - _Equipment::Weapon<WoodCutter's Axe>:
     coord: [-920.93, 220.65, 1871.83]
 - Collect 6 Peppers for Transmutation:
-    notes: Do not eat these, if you do, you'll have to find another 6x items to transmute before Lurelin Village. Collect Mushrooms around here for eating
+    notes: Do not eat these
 - _Equipment::Shield<Pot Lid>:
     coord: [-952.34, 238.33, 1959.44]
 - _Chest<Traveller's Bow>:

@@ -35,7 +35,6 @@ Endgame:
       Dog: 1
       Apple: -4
       Rupees: 100
-    notes: .v(Rupees) Rupees
 - _Warp::Shrine::MoggLatan:
     line-color: white
     split-type: None

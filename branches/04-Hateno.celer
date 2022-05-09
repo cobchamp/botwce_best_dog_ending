@@ -35,7 +35,6 @@ Hateno:
       Dog: 1
       Apple: -4
       Rupees: 100
-    notes: .v(Rupees) Rupees
 - WB .dir(W) to Hateno Blue Flame:
     coord: [3441.61, 255.67, 1972.58]
 - 2 WBs to Hateno Tech Lab:

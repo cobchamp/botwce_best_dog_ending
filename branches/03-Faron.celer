@@ -35,6 +35,7 @@ Faron:
       Dog: 1
       Apple: -4
 - _Material<Mighty Bananas, 3>:
+    coord: [1791.37, 228.57, 3645.99]
     text: WB .dir(E) to Mighty Bananas
 - BLSS to Lurelin Village
 - _Chest<Lurelin Village Dog>:

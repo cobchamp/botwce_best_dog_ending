@@ -43,4 +43,4 @@ Gerudo:
     text: Warp
     icon: warp
     comment: Warp to .loc(Dah Hesho)
-    split-type: UserDefined
+    split-type: Memory
