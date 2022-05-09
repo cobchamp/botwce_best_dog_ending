@@ -2,6 +2,7 @@ Hyrule Field:
 - _Warp::Shrine::TalohNaeg:
     line-color: yellow
     split-type: None
+- Grab Bird Egg here if you need a little extra time on boss rush attack food
 - _Npc::SheikaFemale<Impa 2>:
     coord: [1772.71, 229.43, 984.31]
     comment: Talk to Impa to advance the locked memories main quest
@@ -121,6 +122,9 @@ Hyrule Field:
 - _Equipment::Weapon<Royal Guard's Claymore>:
     coord: [-380.76, 166.04, -863.66]
     comment: Shock Arrow the Black Moblin
+- _Material<Razorshroom>:
+    coord: [-390.02, 166.73, -842.82]
+    comment: Break wooden box for 1 Razorshroom
 - Exit Castle, WB Superlaunch to Memory:
     coord: [-434.375,-851.73]
 - _Memory::SacredGrounds

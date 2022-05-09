@@ -8,6 +8,8 @@ Gerudo:
     var-change:
       Wood: -20
     comment: Give 20 Wood; Get Rhondson Objective
+- _Cook<Attack Food>:
+    comment: 3x Mighty Bananas, 1x Razorshroom, 1x Bird Egg (optional)
 - BLSS to Memory
 - _Memory::SpringofPower
 - _Warp::Shrine::KehNamut:
