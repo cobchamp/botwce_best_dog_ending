@@ -40,6 +40,7 @@ Hateno:
 - 2 WBs to Hateno Tech Lab:
     coord: [3786.98, 356.07, 2117.03]
     notes: Weapon smuggle and carry flame with Forest Dweller's Spear
+- (!=) It is fairly common to get a panic blood moon around this part of the run... If it happens during the blue flame escort, you will need to start again at the weapon smuggle
 - Camera Rune:
     split-type: UserDefined
     icon: camera-elite
