@@ -10,6 +10,7 @@ Gerudo:
     comment: Give 20 Wood; Get Rhondson Objective
 - _Cook<Attack Food>:
     comment: 3x Mighty Bananas, 1x Razorshroom, 1x Bird Egg (optional)
+    notes: There are several other cooking pots you can use between here and the endgame if you forget
 - BLSS to Memory
 - _Memory::SpringofPower
 - _Warp::Shrine::KehNamut:
@@ -28,9 +29,6 @@ Gerudo:
 - WB to Kara Kara Bazaar
 - _Memory::KaraKaraBazaar:
     split-type: None
-- _Npc::Gerudo<Rhondson>:
-    split-type: None
-    coord: [-3269.43, 129.00, 2585.22]
 - _Chest<Kara Kara Bazaar Dog>:
     split-type: None
     icon: korok-magnesis
@@ -41,8 +39,13 @@ Gerudo:
     var-change:
       Dog: 1
       Apple: -4
+- _Npc::Gerudo<Rhondson>:
+    split-type: None
+    notes: You can talk to Rhondson while the dog is eating, as long as you aren't too far from the dog for too long
+    coord: [-3269.43, 129.00, 2585.22]
 - Kara Kara Bazaar:
     text: Warp
     icon: warp
     comment: Warp to .loc(Dah Hesho)
     split-type: Memory
+- (==) Since there are so many objectives here at this location, I split as I warp out (when screen fades to black) instead of at each of the Memory, Dog and Rhondson

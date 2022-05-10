@@ -8,6 +8,7 @@ Plateau:
     coord: [-920.93, 220.65, 1871.83]
 - Collect 6 Peppers for Transmutation:
     notes: Do not eat these
+- Collect minimum 3 Hylian Shrooms, or the cooked meat to get you to the first food in the run after Plateau
 - _Equipment::Shield<Pot Lid>:
     coord: [-952.34, 238.33, 1959.44]
 - _Chest<Traveller's Bow>:

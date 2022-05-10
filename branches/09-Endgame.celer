@@ -13,6 +13,7 @@ Endgame:
     var-change:
       Dog: 1
       Apple: -8
+    notes: Drop 8-10 apples so both dogs are fed...
 - _Warp::Shrine::TalohNaeg:
     line-color: purple
     split-type: None
@@ -24,6 +25,7 @@ Endgame:
       - to: [1841.12,891.19]
       - to: [2103.82,1613]
 - _Memory::AshSwamp
+- WB .dir(W) to stable
 - _Chest<Dueling Peaks Stable Dog>:
     split-type: UserDefined
     icon: korok-magnesis
@@ -41,6 +43,7 @@ Endgame:
 - BLSS to Hyrule Castle
 - _Chest<5x Ancient Arrows>:
     coord: [-259.50, 420.85, -1065.37]
+- (==) Endgame is pretty much Any% but you have a lot of extra elemental arrows and 8 Ancient Arrows
 - Enter Blights:
     icon: calamity
     split-type: UserDefined

@@ -12,6 +12,7 @@ Tabantha:
     split-type: None
 - BLSS to memory
 - _Memory::AncientColumns
+- BLSS to Rito Village
 - _Npc::Rito<Fyson>:
     split-type: UserDefined
     coord: [-3600.50, 287.60, -1814.47]

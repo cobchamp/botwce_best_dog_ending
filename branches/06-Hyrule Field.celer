@@ -16,7 +16,7 @@ Hyrule Field:
 - _Npc::Goron<Greyson>:
     split-type: UserDefined
     coord: [1656.63, 430.15, -1968.53]
-- WB Chain to memory
+- WB Chain to memory .dir(W, then S)
 - _Memory::EldinCanyon
 - WB to Woodland Stable
 - _Chest<Woodland Stable Dog>:
@@ -51,7 +51,7 @@ Hyrule Field:
 - WB .dir(W) to BLSS:
     coord: [0.5,1892.31]
 - _Memory::LakeKolomo
-- WB chain to stable
+- WB chain to stable .dir(SW, then NW)
 - _Chest<Outskirt Stable Dog>:
     split-type: UserDefined
     icon: korok-magnesis
@@ -97,7 +97,7 @@ Hyrule Field:
       Dog: 2
       Apple: -4
       Wood: 5
-    notes: Pick up 5 Wood while first dog eats
+    notes: Pick up 5 Wood while first dog eats. Run back and forth to the campfire to reset cold damage while trying to stay close to the dog as he's eating
 - BLSS to Hyrule Castle
 - _Memory::HyruleCastle
 - _Equipment::Weapon<Edge of Duality>:
@@ -115,7 +115,7 @@ Hyrule Field:
 - _Chest<5x Ancient Arrows>:
     coord: [-325.20, 181.06, -798.59]
     comment: Behind bombable wall
-- Drop excess weapons (Axe, Knight's Claymore) on door switch
+- Drop excess weapons (Axes, Knight's Claymore) on door switch
 - _Equipment::Weapon<Royal Claymore>:
     coord: [-377.44, 168.59, -870.37]
     comment: Glide down to Royal Claymore
