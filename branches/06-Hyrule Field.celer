@@ -5,7 +5,8 @@ Hyrule Field:
 - _Npc::SheikaFemale<Impa 2>:
     coord: [1772.71, 229.43, 984.31]
     comment: Talk to Impa to advance the locked memories main quest
-- _Tod::Night
+- _Tod::Night:
+    coord: [1798.63, 219.90, 1011.16]
 - WBs to Kakariko Stump and BLSS:
     coord: [1872.33, 344.20, 815.26]
 - _Memory::LanayruRoad
