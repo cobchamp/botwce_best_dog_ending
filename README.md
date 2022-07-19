@@ -1,1 +1,1 @@
-[View in Celer Web App](https://celer.itntpiston.app/#/gh/cobchamp/botwce_best_dog_ending/master)
+[View in Celer Web App](https://celer.itntpiston.app/#/gh/cobchamp/botwce_best_dog_ending/ist-2022)

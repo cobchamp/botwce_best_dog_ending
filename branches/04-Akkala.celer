@@ -16,7 +16,6 @@ Akkala:
     var-change:
       Wood: -10
     comment: Give 10 Wood; Get Greyson Objective
-- _Tod::Night
 - WBs to shrine
 - _Shrine::DahHesho:
     icon: shrine
