@@ -2,17 +2,17 @@ Hyrule Field:
 - _Warp::Shrine::TalohNaeg:
     line-color: yellow
     split-type: None
-- Grab Bird Egg here if you need a little extra time on boss rush attack food
+- Grab 2 Bird Eggs for attack food later
 - _Npc::SheikaFemale<Impa 2>:
     coord: [1772.71, 229.43, 984.31]
     comment: Talk to Impa to advance the locked memories main quest
 - WBs to Kakariko Stump and BLSS:
     coord: [1872.33, 344.20, 815.26]
 - _Memory::LanayruRoad
-- WBs, BLSS, Moblin BTB to Southern Mine:
+- WBs, BLSS, WBs:
     movements:
-      - to: [3084.25,1340.85] # BLSS setup
-      - to: [1427.00, 296.94, -1316.15] # Moblin
+      - to: [3604.0092931587387,1124.3125] # Tree
+      - to: [1851.0125066809196,-1440] # Land here
 - _Npc::Goron<Greyson>:
     split-type: UserDefined
     coord: [1656.63, 430.15, -1968.53]
@@ -65,6 +65,15 @@ Hyrule Field:
       Rupees: 100
 - WB chain to memory
 - _Memory::SanidinPark
+- .dir(NE)
+- _Material<Mighty Thistle,2>:
+    coord: [-1850.36, 267.77, 334.06]
+- .dir(E) + .dir(N) midair to thin trees
+- BLSS to memory
+- _Memory::AncientColumns
+- _Shrine::TenaKosah:
+    icon: shrine
+    comment: Activate Shrine
 - BLSS to memory
 - _Memory::IrchPlain
 - WB to stable
@@ -79,9 +88,6 @@ Hyrule Field:
       Dog: 1
       Apple: -4
       Rupees: 300
-- _Material<Wood, +45>:
-    var-change:
-      Wood: 45
 - WB and Moblin BTB Snowfield Stable:
     coord: [-1770.50, 211.99, -1732.00] # Moblin
 - _Chest<Snowfield Stable Dogs>:
@@ -96,8 +102,7 @@ Hyrule Field:
     var-change:
       Dog: 2
       Apple: -4
-      Wood: 5
-    notes: Pick up 5 Wood while first dog eats. Run back and forth to the campfire to reset cold damage while trying to stay close to the dog as he's eating
+    notes: Run back and forth to the campfire to reset cold damage while trying to stay close to the dog as he's eating
 - BLSS to Hyrule Castle
 - _Memory::HyruleCastle
 - _Equipment::Weapon<Edge of Duality>:
@@ -107,24 +112,5 @@ Hyrule Field:
 - _Equipment::Bow<Royal Guard's Bow>:
     coord: [-310.25, 261.03, -995.87]
     comment: Magensis off wall
-- WB to Castle cryonis entrance:
-    coord: [-317,-769.95]
-- _Equipment::Weapon<Lizal Tri-Boomerang>:
-    coord: [-322.58, 192.35, -833.74]
-    comment: Shock Arrow the Black Lizalfos
-- _Chest<5x Ancient Arrows>:
-    coord: [-325.20, 181.06, -798.59]
-    comment: Behind bombable wall
-- Drop excess weapons (Axes, Knight's Claymore) on door switch
-- _Equipment::Weapon<Royal Claymore>:
-    coord: [-377.44, 168.59, -870.37]
-    comment: Glide down to Royal Claymore
-- _Equipment::Weapon<Royal Guard's Claymore>:
-    coord: [-380.76, 166.04, -863.66]
-    comment: Shock Arrow the Black Moblin
-- _Material<Razorshroom>:
-    coord: [-390.02, 166.73, -842.82]
-    comment: Break wooden box for 1 Razorshroom
-- Exit Castle, WB Superlaunch to Memory:
-    coord: [-434.375,-851.73]
+- .dir(BLSS)
 - _Memory::SacredGrounds

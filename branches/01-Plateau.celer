@@ -1,16 +1,25 @@
 Plateau:
 - _Chest<Old Shirt>:
     coord: [-1113.03, 237.33, 1890.58]
+    line-color: white
     comment: Equip Immediately
     notes: Need a shirt to talk to Fyson in Rito Village
 - SOR Clip, Activate ToD
 - _Equipment::Weapon<WoodCutter's Axe>:
     coord: [-920.93, 220.65, 1871.83]
-- Collect 6 Peppers for Transmutation:
-    notes: Do not eat these
-- Collect minimum 3 Hylian Shrooms, or the cooked meat to get you to the first food in the run after Plateau
 - _Equipment::Shield<Pot Lid>:
     coord: [-952.34, 238.33, 1959.44]
+- _Material<Spicy Pepper,6>:
+    coord: [-965.30, 238.52, 1956.67]
+    comment: For scrap
+    var-change:
+      scrap: 1
+- _Material<Hylian Shroom,2>:
+    coord: [-958.57, 238.65, 1966.77]
+    comment: For scrap
+    var-change:
+      scrap: 1
+    
 - _Chest<Traveller's Bow>:
     coord: [-832.43, 222.00, 1963.11]
 - 5 Arrows:
@@ -25,9 +34,24 @@ Plateau:
     split-type: None
 
 - WB over barrier to mag
+- _Chest<DLC Ruby>:
+    coord: [-671.65, 171.79, 1522.61]
 - _Shrine::OmanAu
 
-- BLSS and Windbomb to stasis
+- BLSS to tree
+- .loc(Tree):
+    coord: [-839,2273.5]
+- _Material<Apple, 2>:
+    coord: [-856.45, 192.73, 2274.48]
+    comment: For scrap
+    var-change:
+      scrap: 1
+- _Material<Wood, 2>:
+    coord: [-856.45, 192.73, 2274.48]
+    comment: For scrap
+    var-change:
+      scrap: 1
+- .dir(Tree WB)
 - _Shrine::OwaDaim
 
 - Boulder + BTB to cryo:

@@ -9,14 +9,12 @@ _project:
 _route:
   - Plateau:
       - __use__ Plateau
-  - Satori Mountain:
-      - __use__ Satori Mountain
-  - Faron:
-    - __use__ Faron
   - Hateno:
     - __use__ Hateno
   - Akkala:
     - __use__ Akkala
+  - Faron:
+    - __use__ Faron
   - Hyrule Field:
     - __use__ Hyrule Field
   - Gerudo:

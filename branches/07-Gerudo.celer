@@ -9,7 +9,7 @@ Gerudo:
       Wood: -20
     comment: Give 20 Wood; Get Rhondson Objective
 - _Cook<Attack Food>:
-    comment: 3x Mighty Bananas, 1x Razorshroom, 1x Bird Egg (optional)
+    comment: 3x Mighty Bananas, 2x Mighty Thistle
     notes: There are several other cooking pots you can use between here and the endgame if you forget
 - BLSS to Memory
 - _Memory::SpringofPower

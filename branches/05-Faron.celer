@@ -1,13 +1,8 @@
 Faron: 
-- _Warp::Tower::GreatPlateau:
-    line-color: red
+- _Warp::Shrine::OwaDaim:
+    line-color: orange
     split-type: None
 - BLSS to Highland Stable
-- _Cook<Cook Hearty Meals>:
-    comment: All remaining Durians
-    coord: [507.66, 153.07, 3453.87]
-    var-change:
-      Durian: -10
 - _Equipment::Shield<Pot Lid>:
     coord: [504.91, 153.12, 3456.91]
     notes: Backup shield, particularly for if your shield burns up in Eldin
@@ -36,8 +31,7 @@ Faron:
       Dog: 1
       Apple: -4
 - _Material<Mighty Bananas, 3>:
-    coord: [1791.37, 228.57, 3645.99]
-    text: WB .dir(a little S of E) to Mighty Bananas
+    coord: [1481.29, 241.32, 3550.63]
 - BLSS to Lurelin Village
 - _Chest<Lurelin Village Dog>:
     split-type: UserDefined
@@ -50,27 +44,6 @@ Faron:
       Dog: 1
       Apple: -4
     notes: Dog is usually under the house by the cooking pot at this time of day
-- _Shop<WB .dir(SE) to shop on docks>:
-    coord: [2957.75, 106.82, 3494.50]
-- Sell Star Fragment:
-    var-change:
-      Rupees: 300
-    notes: .v(Rupees) Rupees
-- Buy 10x Shock Arrows:
-    var-change:
-      Rupees: -160
-    notes: .v(Rupees) Rupees
-- .npc(Transmutate):
-    notes: Stand with back against wooden box to overload with bows, facing the shopkeeper
-- Drop 1 Diamond
-- Transmute 5 Diamonds:
-    notes: Hold Smuggle 5 Peppers, Sell 1, Pick up Diamond
-    var-change:
-      Diamond: +5
-- Sell 6 Diamonds:
-    var-change:
-      Rupees: 3000
-    notes: .v(Rupees) Rupees
 - Warp:
     icon: warp
-    comment: to .loc(Keh Namut)
+    comment: to .loc(Taloh Naeg)

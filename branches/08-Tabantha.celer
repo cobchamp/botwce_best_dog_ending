@@ -8,10 +8,8 @@ Tabantha:
     var-change:
       Wood: -30
     comment: Give 30 Wood; Get Fyson Objective
-- _Warp::Shrine::MoggLatan:
+- _Warp::Shrine::TenaKosah:
     split-type: None
-- BLSS to memory
-- _Memory::AncientColumns
 - BLSS to Rito Village
 - _Npc::Rito<Fyson>:
     split-type: UserDefined

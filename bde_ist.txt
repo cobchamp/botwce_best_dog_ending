@@ -1,0 +1,30 @@
+Initialize 2 Weapon 1 Bow 1 RoyalBow 1 NormalArrow 1 AncientArrow 1 Shield 1 Ruby 1 Apple 1 Wood 1 Steak 1 Slate 1 Glider 
+Equip RoyalBow
+Equip AncientArrow
+Equip Shield
+Break 5 Slots
+Break 2 Slots
+D&P 1 Wood 1 Apple 1 Ruby
+Save
+Unequip Shield
+Unequip RoyalBow
+Drop 1 Wood 1 Apple 1 Ruby 1 Steak
+Reload
+Save
+Equip Normal
+Drop 1 Apple 1 Wood 
+Unequip Shield
+Reload
+Shoot 1 Arrow
+Save
+Drop 1 Apple 1 Wood
+Unequip Shield
+Reload
+Save
+Drop 2 Ruby
+Pickup 2 Ruby
+Reload
+Sell 4 Ruby
+Eat 2 Steak
+Save
+Reload

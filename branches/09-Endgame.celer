@@ -37,13 +37,10 @@ Endgame:
       Dog: 1
       Apple: -4
       Rupees: 100
-- _Warp::Shrine::MoggLatan:
-    line-color: white
+- _Warp::Shrine::KehNamut:
+    line-color: grey
     split-type: None
 - BLSS to Hyrule Castle
-- _Chest<5x Ancient Arrows>:
-    coord: [-259.50, 420.85, -1065.37]
-- (==) Endgame is pretty much Any% but you have a lot of extra elemental arrows and 8 Ancient Arrows
 - Enter Blights:
     icon: calamity
     split-type: UserDefined
