@@ -24,7 +24,3 @@ Save
 Drop 2 Ruby
 Pickup 2 Ruby
 Reload
-Sell 4 Ruby
-Eat 2 Steak
-Save
-Reload
