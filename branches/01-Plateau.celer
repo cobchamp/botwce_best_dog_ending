@@ -32,8 +32,6 @@ Plateau:
     split-type: None
 
 - WB over barrier to mag
-- _Chest<DLC Ruby>:
-    coord: [-671.65, 171.79, 1522.61]
 - _Shrine::OmanAu
 
 - BLSS to tree
