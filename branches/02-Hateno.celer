@@ -1,43 +1,20 @@
 Hateno:
-- .dir(BLSS):
-    notes: From base of temple
-    
-- .loc(Hyrule Castle Observatory Balcony)
-- _Chest<Ancient Arrows, 3>:
-    coord: [-254.00, 209.67, -742.37]
-    line-color: red
-- _Equipment::Bow<Royal Bow>:
-    notes: Unequip Traveler's Bow
-- Climb wall and WB .dir(NE) to upper castle wall:
-    coord: [-99.65261892036324,-931.75]
-- .dir(BLSS) to Kakariko
-
+- .dir(BLSS) to Kakariko:
+    notes: From temple roof
 - _Npc::SheikaFemale<Impa 1>:
     coord: [1772.71, 229.43, 984.31]
+    line-color: red
     comment: Talk to Impa twice to advance the locked memories main quest
-- WB .dir(E) to woods near Lakna Rokee
-- _Material<Ironshroom, 1>:
-    coord: [2027.18, 285.00, 901.59]
-    comment: For scrap
-- _Material<Hearty Radish, 1>:
-    coord: [2058.20, 270.11, 876.72]
-    comment: For food
-- _Material<Blue Nightshade, 2>:
-    coord: [2029.60, 267.83, 868.23]
-    comment: For scrap
+- WB .dir(E) to Great Fairy Fountain
+- _Material<Fairy, 2>:
+    coord: [1962.69, 269.17, 845.87]
     var-change:
       scrap: 1
-- _Material<Silent Princess, 2>:
-    coord: [1998.67, 267.91, 842.24]
+- _Material<Blue Nightshade, 2>:
     comment: For scrap
     var-change:
       scrap: 1
 - WB .dir(SW) back to town center
-- _Material<Ironshroom, 1>:
-    coord: [1836.04, 221.03, 981.81]
-    comment: For scrap
-    var-change:
-      scrap: 1
 
 - _Npc<Goddess Statue>:
     coord: [1840.12, 218.54, 997.89]
@@ -51,13 +28,13 @@ Hateno:
 
 - _Shop<General Store>:
     coord: [1830.49, 222.41, 1044.89]
-# - .v(scrap)/7 scrap
+# - .v(scrap)/6 scrap
 - Do IST:
     notes: .link([IST Simulator]https://dupl.itntpiston.app/) -> .link([Export File]https://raw.githubusercontent.com/cobchamp/botwce_best_dog_ending/ist-2022/bde_ist.txt)
-- Sell 4 Ruby and 750 Apples:
+- Sell 500 Fairies and 700 Apples:
     notes: .v(Rupees) Rupees
     var-change:
-      Rupees: 3090
+      Rupees: 3100
 
 - _Shrine::TalohNaeg:
     text: Activate Taloh Naeg

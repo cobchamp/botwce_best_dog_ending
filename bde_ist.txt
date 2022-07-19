@@ -1,26 +1,23 @@
-Initialize 2 Weapon 1 Bow 1 RoyalBow 1 NormalArrow 1 AncientArrow 1 Shield 1 Ruby 1 Apple 1 Wood 1 Steak 1 Slate 1 Glider 
-Equip RoyalBow
-Equip AncientArrow
+# Output: 999 Fairy, 999 Wood, 999 Apples
+Initialize 1 Shield 1 Fairy 1 Wood 1 Apple 1 Slate 1 Glider 
 Equip Shield
-Break 5 Slots
-Break 2 Slots
-D&P 1 Wood 1 Apple 1 Ruby
+Break 6 Slots
 Save
+# Generate 999 Fairy
 Unequip Shield
-Unequip RoyalBow
-Drop 1 Wood 1 Apple 1 Ruby 1 Steak
+Drop 0 Fairy 0 Wood
 Reload
 Save
-Equip Normal
-Drop 1 Apple 1 Wood 
-Unequip Shield
-Reload
-Shoot 1 Arrow
-Save
-Drop 1 Apple 1 Wood
+# Generate 999 Wood
+Drop 2 Fairy 2 Wood 
 Unequip Shield
 Reload
 Save
-Drop 2 Ruby
-Pickup 2 Ruby
+# Generate 999 Apples
+Drop 3 Apple 1 Wood
+Unequip Shield
+Reload
+Save
+# Get 999 Apples in Visible Inventory
+Drop 1 Apple
 Reload

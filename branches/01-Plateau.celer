@@ -5,8 +5,6 @@ Plateau:
     comment: Equip Immediately
     notes: Need a shirt to talk to Fyson in Rito Village
 - SOR Clip, Activate ToD
-- _Equipment::Weapon<WoodCutter's Axe>:
-    coord: [-920.93, 220.65, 1871.83]
 - _Equipment::Shield<Pot Lid>:
     coord: [-952.34, 238.33, 1959.44]
 - _Material<Spicy Pepper,6>:
@@ -52,7 +50,8 @@ Plateau:
     var-change:
       scrap: 1
 - .dir(Tree WB)
-- _Shrine::OwaDaim
+- _Shrine::OwaDaim:
+    comment: Get hammer
 
 - Boulder + BTB to cryo:
     var-change:

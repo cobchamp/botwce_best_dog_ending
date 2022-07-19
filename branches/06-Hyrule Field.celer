@@ -17,9 +17,6 @@ Hyrule Field:
     split-type: UserDefined
     coord: [1656.63, 430.15, -1968.53]
 - WB Chain to memory .dir(W, then S)
-- _Equipment::Weapon<Lizal Tri-Boomerang>:
-    coord: [1445.50, 445.02, -1586.50]
-    comment: Shock Arrow the Fire-Breath Lizalfos
 - _Memory::EldinCanyon
 - WB to Woodland Stable
 - _Chest<Woodland Stable Dog>:
@@ -106,7 +103,24 @@ Hyrule Field:
       Dog: 2
       Apple: -4
     notes: Run back and forth to the campfire to reset cold damage while trying to stay close to the dog as he's eating
-- BLSS to Hyrule Castle
+- BLSS to Hyrule Castle Guard Chamber gate:
+    notes: pray for unloaded gate
+- _Equipment::Weapon<Royal Claymore>:
+    coord: [-377.44, 168.59, -870.37]
+    comment: Glide down to Royal Claymore
+- _Equipment::Weapon<Royal Guard's Claymore>:
+    coord: [-380.76, 166.04, -863.66]
+    comment: Shock Arrow the Black Moblin
+- _Chest<3x Ancient Arrows>:
+    coord: [-325.20, 181.06, -798.59]
+    comment: Behind bombable wall
+- _Equipment::Weapon<Lizal Tri-Boomerang>:
+    coord: [-322.58, 192.35, -833.74]
+    comment: Shock Arrow the Black Lizalfos
+- _Chest<3x Ancient Arrows>:
+    coord: [-359.22, 205.98, -921.20]
+    comment: By the malice stairs
+- WB to Zelda's Study
 - _Memory::HyruleCastle
 - _Equipment::Weapon<Edge of Duality>:
     coord: [-311.81, 256.46, -997.30]
