@@ -17,6 +17,9 @@ Hyrule Field:
     split-type: UserDefined
     coord: [1656.63, 430.15, -1968.53]
 - WB Chain to memory .dir(W, then S)
+- _Equipment::Weapon<Lizal Tri-Boomerang>:
+    coord: [1445.50, 445.02, -1586.50]
+    comment: Shock Arrow the Fire-Breath Lizalfos
 - _Memory::EldinCanyon
 - WB to Woodland Stable
 - _Chest<Woodland Stable Dog>:
