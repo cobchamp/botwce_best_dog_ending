@@ -119,7 +119,6 @@ Hyrule Field:
 - _Chest<3x Ancient Arrows>:
     coord: [-325.20, 181.06, -798.59]
     comment: Behind bombable wall
-- Drop excess weapons on door switch
 - _Equipment::Weapon<Royal Claymore>:
     coord: [-377.44, 168.59, -870.37]
     comment: Glide down to Royal Claymore
