@@ -30,7 +30,6 @@ Hyrule Field:
     var-change:
       Dog: 1
       Apple: -4
-- Collect Radishes if needed
 - WB to Stable Horse, BLSS to Wetland Stable:
     coord: [992.80, 125.70, -1132.40]
 - _Chest<Wetland Stable Dog>:
@@ -43,7 +42,6 @@ Hyrule Field:
     var-change:
       Dog: 1
       Apple: -4
-- Collect Radishes if needed
 - WB .dir(SW) to memory
 - _Memory::HyruleField
 - WB .dir(S) to BLSS:
@@ -104,24 +102,7 @@ Hyrule Field:
       Dog: 2
       Apple: -4
     notes: Run back and forth to the campfire to reset cold damage while trying to stay close to the dog as he's eating
-- BLSS to Hyrule Castle Guard Chamber gate:
-    notes: pray for unloaded gate
-- _Equipment::Weapon<Royal Claymore>:
-    coord: [-377.44, 168.59, -870.37]
-    comment: Glide down to Royal Claymore
-- _Equipment::Weapon<Royal Guard's Claymore>:
-    coord: [-380.76, 166.04, -863.66]
-    comment: Shock Arrow the Black Moblin
-- _Chest<3x Ancient Arrows>:
-    coord: [-325.20, 181.06, -798.59]
-    comment: Behind bombable wall
-- _Equipment::Weapon<Lizal Tri-Boomerang>:
-    coord: [-322.58, 192.35, -833.74]
-    comment: Shock Arrow the Black Lizalfos
-- _Chest<3x Ancient Arrows>:
-    coord: [-359.22, 205.98, -921.20]
-    comment: By the malice stairs
-- WB to Zelda's Study
+- BLSS to Hyrule Castle
 - _Memory::HyruleCastle
 - _Equipment::Weapon<Edge of Duality>:
     coord: [-311.81, 256.46, -997.30]
@@ -130,5 +111,20 @@ Hyrule Field:
 - _Equipment::Bow<Royal Guard's Bow>:
     coord: [-310.25, 261.03, -995.87]
     comment: Magensis off wall
-- .dir(BLSS)
+- WB to Castle cryonis entrance:
+    coord: [-317,-769.95]
+- _Equipment::Weapon<Lizal Tri-Boomerang>:
+    coord: [-322.58, 192.35, -833.74]
+    comment: Shock Arrow the Black Lizalfos
+- _Chest<3x Ancient Arrows>:
+    coord: [-325.20, 181.06, -798.59]
+    comment: Behind bombable wall
+- Drop excess weapons on door switch
+- _Equipment::Weapon<Royal Claymore>:
+    coord: [-377.44, 168.59, -870.37]
+    comment: Glide down to Royal Claymore
+- _Equipment::Weapon<Royal Guard's Claymore>:
+    coord: [-380.76, 166.04, -863.66]
+    comment: Shock Arrow the Black Moblin
+- Exit Castle .dir(BLSS) to Sacred Grounds
 - _Memory::SacredGrounds

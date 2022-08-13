@@ -1,10 +1,8 @@
 Plateau:
-- _Chest<Old Shirt>:
-    coord: [-1113.03, 237.33, 1890.58]
-    line-color: white
-    comment: Equip Immediately
-    notes: Need a shirt to talk to Fyson in Rito Village
 - SOR Clip, Activate ToD
+- _Equipment::Weapon<Tree Branch>:
+    notes: for IST, for blue flame escort
+    coord: [-1034.19, 249.09, 1847.06]
 - _Equipment::Shield<Pot Lid>:
     coord: [-952.34, 238.33, 1959.44]
 - _Material<Spicy Pepper,6>:

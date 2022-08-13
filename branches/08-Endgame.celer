@@ -1,25 +1,20 @@
-Endgame: 
+Endgame:
 - _Warp::Shrine::DahHesho:
-    line-color: cyan
+    line-color: blue
     split-type: None
 - WB to Tarrey Town
-- _Chest<Tarrey Town Dog>:
-    split-type: UserDefined
-    icon: korok-magnesis
-    comment: .v(Dog) Dogs, 5x Bomb Arrow
-    movements: 
-      - to: [3923.10, 238.22, -1632.89]
-      - to: [3940.30, 232.60, -1649.20]
+- _Npc<Hudson>:
+    coord: [3981.65, 233.41, -1599.11]
     var-change:
-      Dog: 1
-      Apple: -8
-    notes: Drop 8-10 apples so both dogs are fed...
+      Wood: -30
+    comment: Give 30 Wood; Get Fyson Objective
 - _Warp::Shrine::TalohNaeg:
-    line-color: purple
     split-type: None
 - _Npc::SheikaFemale<Impa 3>:
     coord: [1772.71, 229.43, 984.31]
     comment: Talk to Impa to unlock final memory
+- Equip Champion's Tunic:
+    notes: Needed for Fyson
 - WB chain to Final Memory:
     movements:
       - to: [1841.12,891.19]
@@ -37,10 +32,34 @@ Endgame:
       Dog: 1
       Apple: -4
       Rupees: 100
+- _Warp::Shrine::TenaKosah:
+    split-type: None
+- BLSS to Rito Village
+- _Npc::Rito<Fyson>:
+    split-type: UserDefined
+    coord: [-3600.50, 287.60, -1814.47]
+- _Warp::Shrine::DahHesho:
+    line-color: purple
+    split-type: None
+- WB to Tarrey Town
+- _Chest<Tarrey Town Dog>:
+    split-type: UserDefined
+    icon: korok-magnesis
+    comment: .v(Dog) Dogs, 5x Bomb Arrow
+    movements: 
+      - to: [3923.10, 238.22, -1632.89]
+      - to: [3940.30, 232.60, -1649.20]
+    var-change:
+      Dog: 1
+      Apple: -8
+    notes: Drop 8-10 apples so both dogs are fed...
 - _Warp::Shrine::KehNamut:
     line-color: grey
     split-type: None
 - BLSS to Hyrule Castle
+- _Chest<5x Ancient Arrows>:
+    notes: optional, 2 windbombs up for swag points
+    coord: [-259.50, 420.85, -1065.37]
 - Enter Blights:
     icon: calamity
     split-type: UserDefined

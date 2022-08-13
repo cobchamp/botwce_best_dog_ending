@@ -19,7 +19,5 @@ _route:
     - __use__ Hyrule Field
   - Gerudo:
     - __use__ Gerudo
-  - Tabantha:
-    - __use__ Tabantha
   - Endgame:
     - __use__ Endgame

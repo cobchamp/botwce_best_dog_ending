@@ -18,7 +18,7 @@ Hateno:
 
 - _Npc<Goddess Statue>:
     coord: [1840.12, 218.54, 997.89]
-    comment: Redeem 4 orbs for heart
+    comment: Redeem 4 orbs for stamina
 
 - _Equipment::Shield<Pot Lid>:
     coord: [1798.63, 219.90, 1011.16]
