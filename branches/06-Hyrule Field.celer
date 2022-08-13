@@ -126,5 +126,6 @@ Hyrule Field:
 - _Equipment::Weapon<Royal Guard's Claymore>:
     coord: [-380.76, 166.04, -863.66]
     comment: Shock Arrow the Black Moblin
-- Exit Castle .dir(BLSS) to Sacred Grounds
+- Clip out of castle and WB + Superlaunch to Sacred Grounds:
+    notes: .link([Reference]https://twitter.com/cobchamp1/status/1558584654747279362)
 - _Memory::SacredGrounds
