@@ -54,7 +54,7 @@ Endgame:
       Apple: -8
     notes: Drop 8-10 apples so both dogs are fed...
 - _Warp::Shrine::KehNamut:
-    line-color: grey
+    line-color: white
     split-type: None
 - BLSS to Hyrule Castle
 - _Chest<5x Ancient Arrows>:

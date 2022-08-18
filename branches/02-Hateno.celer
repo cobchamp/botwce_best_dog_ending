@@ -28,7 +28,7 @@ Hateno:
     coord: [1830.49, 222.41, 1044.89]
 # - .v(scrap)/6 scrap
 - Do IST:
-    notes: .link([IST Simulator]https://dupl.itntpiston.app/) -> .link([Export File]https://raw.githubusercontent.com/cobchamp/botwce_best_dog_ending/ist-2022/bde_ist.txt)
+    notes: .link([IST Simulator]https://dupl.itntpiston.app/) -> .link([Export File]https://raw.githubusercontent.com/cobchamp/botwce_best_dog_ending/ist-2022/bde_ist.txt) (.link([Alt Setup, requires cooking]https://raw.githubusercontent.com/cobchamp/botwce_best_dog_ending/ist-2022/bde_ist_alt.txt))
 - Sell 500 Fairies and 700 Apples:
     notes: .v(Rupees) Rupees
     var-change:
@@ -65,7 +65,7 @@ Hateno:
     coord: [3441.61, 255.67, 1972.58]
 - 2 WBs to Hateno Tech Lab:
     coord: [3786.98, 356.07, 2117.03]
-    notes: Weapon smuggle and carry flame with Forest Dweller's Spear
+    notes: Weapon smuggle and carry flame with Tree Branch
 - (?=) It is fairly common to get a panic blood moon around this part of the run... If it happens during the blue flame escort, you will need to start again at the weapon smuggle
 - Camera Rune:
     split-type: UserDefined

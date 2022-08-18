@@ -73,22 +73,7 @@ Hyrule Field:
 - _Shrine::TenaKosah:
     icon: shrine
     comment: Activate Shrine
-- BLSS to memory
-- _Memory::IrchPlain
-- WB to stable
-- _Chest<Serenne Stable Dog>:
-    split-type: UserDefined
-    icon: korok-magnesis
-    comment: .v(Dog) Dogs, Gold Rupee
-    movements: 
-      - to: [-1544.30, 212.22, -1793.92]
-      - to: [-1542.01, 212.00, -1761.31]
-    var-change:
-      Dog: 1
-      Apple: -4
-      Rupees: 300
-- WB and Moblin BTB Snowfield Stable:
-    coord: [-1770.50, 211.99, -1732.00] # Moblin
+- BLSS to Snowfield Stable
 - _Chest<Snowfield Stable Dogs>:
     split-type: UserDefined
     icon: korok-magnesis
@@ -102,6 +87,20 @@ Hyrule Field:
       Dog: 2
       Apple: -4
     notes: Run back and forth to the campfire to reset cold damage while trying to stay close to the dog as he's eating
+- WB .dir(S) to Serenne Stable
+- _Chest<Serenne Stable Dog>:
+    split-type: UserDefined
+    icon: korok-magnesis
+    comment: .v(Dog) Dogs, Gold Rupee
+    movements: 
+      - to: [-1544.30, 212.22, -1793.92]
+      - to: [-1542.01, 212.00, -1761.31]
+    var-change:
+      Dog: 1
+      Apple: -4
+      Rupees: 300
+- WB to memory
+- _Memory::IrchPlain
 - BLSS to Hyrule Castle
 - _Memory::HyruleCastle
 - _Equipment::Weapon<Edge of Duality>:

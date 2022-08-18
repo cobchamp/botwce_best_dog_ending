@@ -38,12 +38,11 @@ Faron:
     icon: korok-magnesis
     comment: .v(Dog) Dogs, Star Fragment
     movements: 
-      - to: [2884.75,3407.13]
+      - to: [2869.76, 106.45, 3433.88]
       - to: [2857.95, 109.76, 3380.44]
     var-change:
       Dog: 1
       Apple: -4
-    notes: Dog is usually under the house by the cooking pot at this time of day
 - Warp:
     icon: warp
     comment: to .loc(Taloh Naeg)
