@@ -28,7 +28,7 @@ Hateno:
     coord: [1830.49, 222.41, 1044.89]
 # - .v(scrap)/6 scrap
 - Do IST:
-    notes: .link([IST Simulator]https://dupl.itntpiston.app/) -> .link([Export File]https://raw.githubusercontent.com/cobchamp/botwce_best_dog_ending/ist-2022/bde_ist.txt) (.link([Alt Setup, requires cooking]https://raw.githubusercontent.com/cobchamp/botwce_best_dog_ending/ist-2022/bde_ist_alt.txt))
+    notes: .link([IST Simulator]https://dupl.itntpiston.app/) -> .link([Export File]https://raw.githubusercontent.com/cobchamp/botwce_best_dog_ending/main/bde_ist.txt) (.link([Alt Setup, requires cooking]https://raw.githubusercontent.com/cobchamp/botwce_best_dog_ending/main/bde_ist_alt.txt))
 - Sell 500 Fairies and 700 Apples:
     notes: .v(Rupees) Rupees
     var-change:
