@@ -57,9 +57,6 @@ Endgame:
     line-color: white
     split-type: None
 - BLSS to Hyrule Castle
-- _Chest<5x Ancient Arrows>:
-    notes: optional, 2 windbombs up for swag points
-    coord: [-259.50, 420.85, -1065.37]
 - Enter Blights:
     icon: calamity
     split-type: UserDefined

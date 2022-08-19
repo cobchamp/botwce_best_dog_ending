@@ -47,7 +47,7 @@ Hateno:
       - to: [3333.19, 235.33, 2283.12]
     var-change:
       Rupees: -3000
-    notes: Talk to Bolson, set ToD to noon, talk to Bolson again until he takes your money (.v(Rupees) Rupees Remaining)
+    notes: Talk to Bolson, set .!!(ToD to Morning), talk to Bolson again until he takes your money
 - Talk to Hudson until he goes to Akkala
 - WB .dir(NE) to Hateno Dog
 - _Chest<Hateno Dog>:

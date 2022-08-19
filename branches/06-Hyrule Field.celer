@@ -10,10 +10,13 @@ Hyrule Field:
 - WBs to Kakariko Stump and BLSS:
     coord: [1872.33, 344.20, 815.26]
 - _Memory::LanayruRoad
-- WBs, BLSS, WBs:
+- 2 WBs, BLSS, 3 WBs:
     movements:
-      - to: [3604.0092931587387,1124.3125] # Tree
-      - to: [1851.0125066809196,-1440] # Land here
+      - to: [3104.25,1252] # WB
+      - to: [3081.875,1343.25] # Step-up
+      - to: [1895,-1350.25] # Land here
+      - to: [1833,-1524.25] # WB
+      - to: [1802.75,-1695.25] # WB
 - _Npc::Goron<Greyson>:
     split-type: UserDefined
     coord: [1656.63, 430.15, -1968.53]
@@ -101,7 +104,26 @@ Hyrule Field:
       Rupees: 300
 - WB to memory
 - _Memory::IrchPlain
-- BLSS to Hyrule Castle
+- BLSS to Hyrule Castle:
+    coord: [-400.125,-827]
+    notes: Enter Guard Chamber gate unloaded before touching ground
+- _Equipment::Weapon<Royal Claymore>:
+    coord: [-377.44, 168.59, -870.37]
+    comment: Glide down to Royal Claymore
+- _Equipment::Weapon<Royal Guard's Claymore>:
+    coord: [-380.76, 166.04, -863.66]
+    comment: Shock Arrow the Black Moblin
+- _Chest<3x Ancient Arrows>:
+    coord: [-325.20, 181.06, -798.59]
+    comment: Behind bombable wall
+- _Equipment::Weapon<Lizal Tri-Boomerang>:
+    coord: [-322.58, 192.35, -833.74]
+    comment: Shock Arrow the Black Lizalfos
+- Proceed down hall, through malice, shoot eye on stairs
+- _Chest<3x Ancient Arrows>:
+    coord: [-359.22, 205.98, -921.209]
+    comment: Under stairs
+- Climb stairs, WB .dir(N) to Memory
 - _Memory::HyruleCastle
 - _Equipment::Weapon<Edge of Duality>:
     coord: [-311.81, 256.46, -997.30]
@@ -110,20 +132,6 @@ Hyrule Field:
 - _Equipment::Bow<Royal Guard's Bow>:
     coord: [-310.25, 261.03, -995.87]
     comment: Magensis off wall
-- WB to Castle cryonis entrance:
-    coord: [-317,-769.95]
-- _Equipment::Weapon<Lizal Tri-Boomerang>:
-    coord: [-322.58, 192.35, -833.74]
-    comment: Shock Arrow the Black Lizalfos
-- _Chest<3x Ancient Arrows>:
-    coord: [-325.20, 181.06, -798.59]
-    comment: Behind bombable wall
-- _Equipment::Weapon<Royal Claymore>:
-    coord: [-377.44, 168.59, -870.37]
-    comment: Glide down to Royal Claymore
-- _Equipment::Weapon<Royal Guard's Claymore>:
-    coord: [-380.76, 166.04, -863.66]
-    comment: Shock Arrow the Black Moblin
-- Clip out of castle and WB + Superlaunch to Sacred Grounds:
-    notes: .link([Reference]https://twitter.com/cobchamp1/status/1558584654747279362)
+- BLSS to Sacred Grounds memory:
+    coord: [-335.875,-981.25]
 - _Memory::SacredGrounds
