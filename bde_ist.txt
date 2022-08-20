@@ -1,22 +1,12 @@
-# Output: 999 Fairy, 999 Wood, 999 RawBirdDrumsticks
-Initialize 1 Shield 1 Fairy 1 Wood 1 RawBirdDrumstick 1 Slate 1 Glider 
-Equip Shield
+Initialize 2 Fairy 2 Wood 2 Pepper 2 RawBirdDrumstick 2 HylianShroom 2 BlueNightshade 1 Apple 1 Ironshroom 1 Slate 1 Glider 
+Get 4 Weapon 1 Bow 5 NormalArrow 1 Shield
+Equip Weapon in Slot 4
+Save
 Break 6 Slots
-Save
-# Generate 999 Fairy
-Unequip Shield
+Drop all Fairy all Wood all Pepper all RawBirdDrumstick all HylianShroom all BlueNightshade all Apple all Ironshroom
+Drop 4 Weapon 1 Bow 2 Shield
+Pickup 4 Weapon
+Unequip Weapon
 Reload
 Save
-# Generate 999 Wood
-Drop 2 Fairy 2 Wood 
-Unequip Shield
-Reload
-Save
-# Generate 999 RawBirdDrumsticks
-Drop 3 RawBirdDrumstick 1 Wood
-Unequip Shield
-Reload
-Save
-# Get 999 RawBirdDrumsticks in Visible Inventory
-Drop 1 RawBirdDrumstick
 Reload
