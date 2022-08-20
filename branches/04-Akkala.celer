@@ -9,7 +9,6 @@ Akkala:
       - to: [4199.77, 230.60, -2747.94]
     var-change:
       Dog: 1
-      Apple: -4
 - BLSS to Tarrey Town
 - _Npc<Hudson>:
     coord: [3981.65, 233.41, -1599.11]
@@ -30,7 +29,6 @@ Akkala:
       - to: [3202.18, 306.05, -1702.60]
     var-change:
       Dog: 1
-      Apple: -4
 - Warp:
     icon: warp
     comment: to .loc(Owa Daim)

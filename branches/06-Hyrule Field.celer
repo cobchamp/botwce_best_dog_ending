@@ -32,7 +32,6 @@ Hyrule Field:
       - to: [992.80, 125.70, -1132.40]
     var-change:
       Dog: 1
-      Apple: -4
 - WB to tree stump, BLSS to Wetland Stable:
     coord: [1219.16, 191.16, -1267.59]
 - _Chest<Wetland Stable Dog>:
@@ -44,7 +43,6 @@ Hyrule Field:
       - to: [924.94, 139.80, 274.55]
     var-change:
       Dog: 1
-      Apple: -4
 - WB .dir(SW) to memory
 - _Memory::HyruleField
 - WB .dir(S) to BLSS:
@@ -64,7 +62,6 @@ Hyrule Field:
       - to: [-1414.48, 136.96, 1248.51]
     var-change:
       Dog: 1
-      Apple: -4
       Rupees: 100
 - WB chain to memory
 - _Memory::SanidinPark
@@ -89,7 +86,6 @@ Hyrule Field:
       - to: [-1687.62, 338.40, -2539.70]
     var-change:
       Dog: 2
-      Apple: -4
     notes: Run back and forth to the campfire to reset cold damage while trying to stay close to the dog as he's eating
 - WB .dir(S) to Serenne Stable
 - _Chest<Serenne Stable Dog>:
@@ -101,7 +97,6 @@ Hyrule Field:
       - to: [-1542.01, 212.00, -1761.31]
     var-change:
       Dog: 1
-      Apple: -4
       Rupees: 300
 - WB to memory
 - _Memory::IrchPlain

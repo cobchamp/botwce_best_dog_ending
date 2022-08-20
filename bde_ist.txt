@@ -1,11 +1,10 @@
-# Output: 999 Fairy, 999 Wood, 999 Apples
-Initialize 1 Shield 1 Fairy 1 Wood 1 Apple 1 Slate 1 Glider 
+# Output: 999 Fairy, 999 Wood, 999 RawBirdDrumsticks
+Initialize 1 Shield 1 Fairy 1 Wood 1 RawBirdDrumstick 1 Slate 1 Glider 
 Equip Shield
 Break 6 Slots
 Save
 # Generate 999 Fairy
 Unequip Shield
-Drop 0 Fairy 0 Wood
 Reload
 Save
 # Generate 999 Wood
@@ -13,11 +12,11 @@ Drop 2 Fairy 2 Wood
 Unequip Shield
 Reload
 Save
-# Generate 999 Apples
-Drop 3 Apple 1 Wood
+# Generate 999 RawBirdDrumsticks
+Drop 3 RawBirdDrumstick 1 Wood
 Unequip Shield
 Reload
 Save
-# Get 999 Apples in Visible Inventory
-Drop 1 Apple
+# Get 999 RawBirdDrumsticks in Visible Inventory
+Drop 1 RawBirdDrumstick
 Reload

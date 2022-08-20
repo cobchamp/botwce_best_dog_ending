@@ -35,15 +35,11 @@ Plateau:
 - BLSS to tree
 - .loc(Tree):
     coord: [-839,2273.5]
-- _Material<Apple, 2>:
-    coord: [-856.45, 192.73, 2274.48]
-    comment: For scrap
+- _Material<Raw Bird Drumstick, 2>:
+    coord: [-849.70, 191.50, 2264.70]
+    comment: Shoot Wood Pigeon
     var-change:
-      scrap: 1
-- _Material<Wood, 2>:
-    coord: [-856.45, 192.73, 2274.48]
-    comment: For scrap
-    var-change:
+      Arrow: -1
       scrap: 1
 - .dir(Tree WB)
 - _Shrine::OwaDaim:

@@ -3,9 +3,6 @@ Faron:
     line-color: orange
     split-type: None
 - BLSS to Highland Stable
-- _Equipment::Shield<Pot Lid>:
-    coord: [504.91, 153.12, 3456.91]
-    notes: Backup shield, particularly for if your shield burns up in Eldin
 - _Chest<Highland Stable Dog>:
     split-type: UserDefined
     icon: korok-magnesis
@@ -15,7 +12,6 @@ Faron:
       - to: [536.47, 151.91, 3425.20]
     var-change:
       Dog: 1
-      Apple: -4
       Rupees: 100
     notes: .v(Rupees) Rupees
 - BLSS to Lakeside Stable:
@@ -29,9 +25,8 @@ Faron:
       - to: [1528.13, 166.29, 3505.75]
     var-change:
       Dog: 1
-      Apple: -4
 - _Material<Mighty Bananas, 3>:
-    coord: [1481.29, 241.32, 3550.63]
+    coord: [1743.30, 252.48, 3667.20]
 - BLSS to Lurelin Village
 - _Chest<Lurelin Village Dog>:
     split-type: UserDefined
@@ -42,7 +37,6 @@ Faron:
       - to: [2857.95, 109.76, 3380.44]
     var-change:
       Dog: 1
-      Apple: -4
 - Warp:
     icon: warp
     comment: to .loc(Taloh Naeg)

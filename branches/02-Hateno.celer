@@ -7,11 +7,16 @@ Hateno:
     comment: Talk to Impa twice to advance the locked memories main quest
 - WB .dir(E) to Great Fairy Fountain
 - _Material<Fairy, 2>:
+    comment: For IST
     coord: [1962.69, 269.17, 845.87]
     var-change:
       scrap: 1
 - _Material<Blue Nightshade, 2>:
     comment: For scrap
+    var-change:
+      scrap: 1
+- _Material<Wood, 2>:
+    comment: For IST
     var-change:
       scrap: 1
 - WB .dir(SW) back to town center
@@ -29,10 +34,10 @@ Hateno:
 # - .v(scrap)/6 scrap
 - Do IST:
     notes: .link([IST Simulator]https://dupl.itntpiston.app/) -> .link([Export File]https://raw.githubusercontent.com/cobchamp/botwce_best_dog_ending/main/bde_ist.txt) (.link([Alt Setup, requires cooking]https://raw.githubusercontent.com/cobchamp/botwce_best_dog_ending/main/bde_ist_alt.txt))
-- Sell 500 Fairies and 700 Apples:
+- Sell 375 Raw Bird Drumsticks:
     notes: .v(Rupees) Rupees
     var-change:
-      Rupees: 3100
+      Rupees: 3000
 
 - _Shrine::TalohNaeg:
     text: Activate Taloh Naeg
@@ -59,13 +64,13 @@ Hateno:
       - to: [3613.53, 285.24, 1956.71]
     var-change:
       Dog: 1
-      Apple: -4
       Rupees: 100
 - WB .dir(W) to Hateno Blue Flame:
     coord: [3441.61, 255.67, 1972.58]
 - 2 WBs to Hateno Tech Lab:
     coord: [3786.98, 356.07, 2117.03]
     notes: Weapon smuggle and carry flame with Tree Branch
+- Throw tree branch away
 - (?=) It is fairly common to get a panic blood moon around this part of the run... If it happens during the blue flame escort, you will need to start again at the weapon smuggle
 - Camera Rune:
     split-type: UserDefined

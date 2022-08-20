@@ -30,7 +30,6 @@ Endgame:
       - to: [1767.00, 115.58, 1941.50]
     var-change:
       Dog: 1
-      Apple: -4
       Rupees: 100
 - _Warp::Shrine::TenaKosah:
     split-type: None
@@ -51,8 +50,7 @@ Endgame:
       - to: [3940.30, 232.60, -1649.20]
     var-change:
       Dog: 1
-      Apple: -8
-    notes: Drop 8-10 apples so both dogs are fed...
+    notes: Drop 8-10 drumsticks so both dogs are fed...
 - _Warp::Shrine::KehNamut:
     line-color: white
     split-type: None

@@ -25,7 +25,6 @@ Gerudo:
       - to: [-2780.03, 134.33, 2235.16]
     var-change:
       Dog: 1
-      Apple: -4
 - WB to Kara Kara Bazaar
 - _Memory::KaraKaraBazaar:
     split-type: None
@@ -38,7 +37,6 @@ Gerudo:
       - to: [-3236.47, 128.14, 2596.45]
     var-change:
       Dog: 1
-      Apple: -4
 - _Npc::Gerudo<Rhondson>:
     split-type: None
     notes: You can talk to Rhondson while the dog is eating, as long as you aren't too far from the dog for too long
