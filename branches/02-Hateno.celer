@@ -11,7 +11,7 @@ Hateno:
     coord: [1962.69, 269.17, 845.87]
     var-change:
       scrap: 1
-- _Material<Blue Nightshade, 1>:
+- _Material<Blue Nightshade, 2>:
     comment: For scrap
     var-change:
       scrap: 1
