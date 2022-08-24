@@ -13,7 +13,6 @@ Faron:
     var-change:
       Dog: 1
       Rupees: 100
-    notes: .v(Rupees) Rupees
 - BLSS to Lakeside Stable:
     coord: [547.75,3581.32]
 - _Chest<Lakeside Stable Dog>:

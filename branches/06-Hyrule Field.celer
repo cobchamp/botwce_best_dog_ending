@@ -86,7 +86,6 @@ Hyrule Field:
       - to: [-1687.62, 338.40, -2539.70]
     var-change:
       Dog: 2
-    notes: Run back and forth to the campfire to reset cold damage while trying to stay close to the dog as he's eating
 - WB .dir(S) to Serenne Stable
 - _Chest<Serenne Stable Dog>:
     split-type: UserDefined
