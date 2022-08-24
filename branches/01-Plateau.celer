@@ -1,7 +1,13 @@
 Plateau:
 - SOR Clip, Activate ToD
 - _Equipment::Weapon<Tree Branch>:
-    notes: for IST, for blue flame escort
+    notes: for IST / blue flame escort
+    coord: [-1053.44, 249.44, 1802.61]
+- _Equipment::Weapon<Tree Branch>:
+    notes: for IST / blue flame escort
+    coord: [-1024.63, 251.40, 1812.55]
+- _Equipment::Weapon<Tree Branch>:
+    notes: for IST / blue flame escort
     coord: [-1034.19, 249.09, 1847.06]
 - _Equipment::Shield<Pot Lid>:
     coord: [-952.34, 238.33, 1959.44]
@@ -25,7 +31,6 @@ Plateau:
 - _Shrine::JaBaij
 
 - BLSS to tower
-- Headshot Boko at Tower for 5 Arrows
 - _Tower::GreatPlateau:
     split-type: None
 
@@ -41,9 +46,23 @@ Plateau:
     var-change:
       Arrow: -1
       scrap: 1
+- _Material<Wood, 1>:
+    coord: [-849.70, 191.50, 2264.70]
+    notes: Wood first, Apple second
+    comment: Shoot Wood Pigeon
+    var-change:
+      Arrow: -1
+      scrap: 1
+- _Material<Apple, 2>:
+    coord: [-849.70, 191.50, 2264.70]
+    comment: Shoot Wood Pigeon
+    var-change:
+      Arrow: -1
+      scrap: 1
 - .dir(Tree WB)
 - _Shrine::OwaDaim:
     comment: Get hammer
+    notes: Hammer needed for IST
 
 - Boulder + BTB to cryo:
     var-change:

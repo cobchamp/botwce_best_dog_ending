@@ -7,6 +7,7 @@ _project:
   url: "https://github.com/cobchamp/botwce_best_dog_ending"
   version: 0.1.0
 _route:
+  - (?=) .link([IST Simulator]https://dupl.itntpiston.app/) -> .link([IST Setup]https://raw.githubusercontent.com/cobchamp/botwce_best_dog_ending/main/bde_ist.txt)
   - Plateau:
       - __use__ Plateau
   - Hateno:

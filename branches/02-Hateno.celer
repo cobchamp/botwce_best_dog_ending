@@ -11,12 +11,12 @@ Hateno:
     coord: [1962.69, 269.17, 845.87]
     var-change:
       scrap: 1
-- _Material<Blue Nightshade, 2>:
+- _Material<Blue Nightshade, 1>:
     comment: For scrap
     var-change:
       scrap: 1
-- _Material<Wood, 2>:
-    comment: For IST
+- _Material<Ironshroom, 1>:
+    comment: For scrap
     var-change:
       scrap: 1
 - WB .dir(SW) back to town center
@@ -31,9 +31,9 @@ Hateno:
     
 - _Shop<General Store>:
     coord: [1830.49, 222.41, 1044.89]
-# - .v(scrap)/6 scrap
 - Do IST:
-    notes: .link([IST Simulator]https://dupl.itntpiston.app/) -> .link([Export File]https://raw.githubusercontent.com/cobchamp/botwce_best_dog_ending/main/bde_ist.txt) (.link([Alt Setup, requires cooking]https://raw.githubusercontent.com/cobchamp/botwce_best_dog_ending/main/bde_ist_alt.txt))
+    notes: .link([IST Simulator]https://dupl.itntpiston.app/) -> .link([IST Setup]https://raw.githubusercontent.com/cobchamp/botwce_best_dog_ending/main/bde_ist.txt)
+
 - Sell 375 Raw Bird Drumsticks:
     notes: .v(Rupees) Rupees
     var-change:
@@ -70,8 +70,8 @@ Hateno:
 - 2 WBs to Hateno Tech Lab:
     coord: [3786.98, 356.07, 2117.03]
     notes: Weapon smuggle and carry flame with Tree Branch
-- Throw tree branch away
-- (?=) It is fairly common to get a panic blood moon around this part of the run... If it happens during the blue flame escort, you will need to start again at the weapon smuggle
+- Drop all tree branches
 - Camera Rune:
     split-type: UserDefined
     icon: camera-elite
+- (?=) It is fairly common to get a panic blood moon around this part of the run... If it happens during the blue flame escort, you will need to start again at the weapon smuggle

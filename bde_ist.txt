@@ -1,10 +1,12 @@
-Initialize 2 Fairy 2 Wood 2 Pepper 2 RawBirdDrumstick 2 HylianShroom 2 BlueNightshade 1 Apple 1 Ironshroom 1 Slate 1 Glider 
+Initialize 2 HylianShroom 2 SpicyPepper 2 RawBirdDrumstick 1 Wood 2 Apple 2 Fairy 2 BlueNightshade 1 Ironshroom 1 Slate 1 Glider 
 Get 4 Weapon 1 Bow 5 NormalArrow 1 Shield
 Equip Weapon in Slot 4
+D&P 2 HylianShroom 2 SpicyPepper 
 Save
 Break 6 Slots
-Drop all Fairy all Wood all Pepper all RawBirdDrumstick all HylianShroom all BlueNightshade all Apple all Ironshroom
-Drop 4 Weapon 1 Bow 2 Shield
+Drop all Fairy all Wood all Pepper all RawBirdDrumstick all HylianShroom all BlueNightshade all Ironshroom all Apple
+Drop 1 Bow 2 Shield
+Drop 4 Weapon
 Pickup 4 Weapon
 Unequip Weapon
 Reload
