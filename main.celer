@@ -8,6 +8,8 @@ _project:
   version: 0.1.0
 _route:
   - (?=) .link([IST Simulator]https://dupl.itntpiston.app/) -> .link([IST Setup]https://raw.githubusercontent.com/cobchamp/botwce_best_dog_ending/main/bde_ist.txt)
+  - (==) For this IST setup you need 4 weapons, and to redeem spirit orbs. You also need to break 6 slots and have 8 total materials in your inventory. The route suggests which items to get 1 of and which to get 2 of for the purpose of breaking slots but RNG from trees or pigeons might make it hard to stick to the script exactly. Just make sure you are able to break 6 slots, and the Drumsticks, Wood and Fairy are in their correct position (1st, 2nd and 4th material slots are corrupted)
+  - (==) See this .link([alternative IST Setup]https://raw.githubusercontent.com/cobchamp/botwce_best_dog_ending/main/bde_ist_alt.txt) if you want to keep spirit orbs, saving time on goddess statue interaction but having less stamina
   - Plateau:
       - __use__ Plateau
   - Hateno:
