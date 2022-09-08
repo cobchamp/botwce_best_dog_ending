@@ -49,13 +49,11 @@ Plateau:
 - _Material<Wood, 1>:
     coord: [-849.70, 191.50, 2264.70]
     notes: Wood first, Apple second
-    comment: Shoot Wood Pigeon
     var-change:
       Arrow: -1
       scrap: 1
 - _Material<Apple, 2>:
     coord: [-849.70, 191.50, 2264.70]
-    comment: Shoot Wood Pigeon
     var-change:
       Arrow: -1
       scrap: 1
