@@ -50,12 +50,10 @@ Plateau:
     coord: [-849.70, 191.50, 2264.70]
     notes: Wood first, Apple second
     var-change:
-      Arrow: -1
       scrap: 1
 - _Material<Apple, 2>:
     coord: [-849.70, 191.50, 2264.70]
     var-change:
-      Arrow: -1
       scrap: 1
 - .dir(Tree WB)
 - _Shrine::OwaDaim:
